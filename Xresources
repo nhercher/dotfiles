@@ -1,0 +1,42 @@
+Xcursor.theme: elementary
+Xcursor.size: 22
+URxvt*.termName:                      rxvt-unicode
+URxvt*geometry:                       100x25
+URxvt*scrollBar:                      false
+URxvt*font:                           xft:profont:size=10
+! URxvt*perl-lib:                       string
+! URxvt*perl-eval:                      perl-eval
+! URxvt*perl-ext:                       string
+URxvt*.tabbed.autohide:               true
+URxvt*.tabbed.reopen-on-close:        yes
+URxvt*.keysym.Shift-Left:             perl:tabbedex:move_tab_left
+URxvt*.keysym.Shift-Right:            perl:tabbedex:move_tab_right
+URxvt*.keysym.Shift-Down:             perl:tabbedex:new_tab
+URxvt*.perl-ext-common: default,matcher,tabbedex
+URxvt*.url-launcher: /usr/bin/firefox
+URxvt*.matcher.button: 1
+
+URxvt*.background: #1D2426
+URxvt*.foreground: #8FA388
+
+! Alternate foreground
+!URxvt*.foreground: #AB9C71
+
+URxvt*.cursorColor: #BE5E1E
+
+URxvt*.color0:  #39474A
+URxvt*.color1:  #986345
+URxvt*.color2:  #788249
+URxvt*.color3:  #9B6A46
+URxvt*.color4:  #3E5951
+URxvt*.color5:  #B9924A
+URxvt*.color6:  #5d796a
+URxvt*.color7:  #977D5E
+URxvt*.color8:  #4C5F63
+URxvt*.color9:  #B07350
+URxvt*.color10: #869151
+URxvt*.color11: #AF6B42
+URxvt*.color12: #567A6E
+URxvt*.color13: #D69D55
+URxvt*.color14: #668574
+URxvt*.color15: #AB9C71
