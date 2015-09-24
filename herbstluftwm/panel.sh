@@ -53,4 +53,4 @@ function uniq_linebuffered() {
                   ;;
                esac
      done
-} 2> /dev/null | dzen2 -ta m -y 0 -x 0 -h 16 -w 1366 -fg $FG -bg $BG -fn $FONT &
+} 2> /dev/null | dzen2 -ta m -y 752 -x 0 -h 15 -w 1166 -fg $FG -bg $BG -fn $FONT &
