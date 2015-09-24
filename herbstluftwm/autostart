@@ -23,7 +23,7 @@ Mod=Mod4   # Use the super key as the main modifier
 hc keybind $Mod-Shift-q quit
 hc keybind $Mod-Shift-r reload
 hc keybind $Mod-Shift-c close
-hc keybind $Mod-t spawn urxvt
+hc keybind $Mod-t spawn urxvt -e tmux
 hc keybind $Mod-F1 spawn ~/.config/herbstluftwm/dmenu-mocp.sh
 hc keybind $Mod-F2 spawn ~/.config/herbstluftwm/dmenu.sh
 hc keybind $Mod-w spawn firefox
@@ -31,8 +31,8 @@ hc keybind $Mod-Shift-w spawn firefox --private-window
 hc keybind $Mod-Shift-i spawn ~/.config/herbstluftwm/lock.sh
 
 # brightness & volume
-hc keybind F6 spawn xbacklight -dec 10
-hc keybind F7 spawn xbacklight -inc 10
+hc keybind F6 spawn xbacklight -dec 5
+hc keybind F7 spawn xbacklight -inc 5
 hc keybind F8 spawn ~/.config/herbstluftwm/mute.sh
 hc keybind F9 spawn ~/.config/herbstluftwm/voldown.sh
 hc keybind F10 spawn ~/.config/herbstluftwm/volup.sh
