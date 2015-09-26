@@ -142,7 +142,7 @@ hc attr theme.active.inner_color '#3E4A00'
 hc attr theme.active.outer_color '#3E4A00'
 hc attr theme.background_color '#141414'
 
-hc set window_gap 20
+hc set window_gap 10
 hc set frame_padding 0
 hc set smart_window_surroundings 0
 hc set smart_frame_surroundings 1
@@ -160,10 +160,10 @@ hc rule windowtype='_NET_WM_WINDOW_TYPE_DIALOG' focus=on
 hc rule windowtype~'_NET_WM_WINDOW_TYPE_(NOTIFICATION|DOCK|DESKTOP)' manage=off
 
 ## space on the bottom
-#hc pad 0 0 0 15
+hc pad 0 0 0 0
 
 ## no space
-hc pad 0 0 0 0
+#hc pad 0 0 0 0
 
 # unlock, just to be sure
 hc unlock
