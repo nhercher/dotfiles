@@ -4,3 +4,4 @@ if status --is-login
          exec startx -- -keeptty
     end
 end
+#test $TERM != "screen"; and exec tmux

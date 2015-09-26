@@ -114,7 +114,7 @@ ShowTimePercent = no
 #
 # Example:    Theme = laras_theme
 #
-Theme = red_theme
+Theme = yellow_red_theme
 
 # MOC directory (where pid file, socket and state files are stored).
 # You can use ~ at the beginning.
