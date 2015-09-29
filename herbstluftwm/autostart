@@ -13,8 +13,6 @@ xsetroot -solid '#1b1b1b'
 # autostart some apps
 
 feh --bg-fill ~/.wallpapers/remains2.jpg &
-killall tint2 &
-(sleep 2s && tint2) &
 killall compton &
 (sleep 2s && compton) &
 
@@ -31,8 +29,8 @@ hc keybind $Mod-Shift-c close
 hc keybind $Mod-t spawn urxvt -e tmux
 hc keybind $Mod-F1 spawn ~/.config/herbstluftwm/dmenu-mocp.sh
 hc keybind $Mod-F2 spawn ~/.config/herbstluftwm/dmenu.sh
-hc keybind $Mod-w spawn firefox
-hc keybind $Mod-Shift-w spawn firefox --private-window
+hc keybind $Mod-w spawn icecat
+hc keybind $Mod-Shift-w spawn icecat --private-window
 hc keybind $Mod-Shift-i spawn ~/.config/herbstluftwm/lock.sh
 
 # brightness & volume
@@ -86,8 +84,6 @@ done
 # cycle through tags
 hc keybind $Mod-period use_index +1 --skip-visible
 hc keybind $Mod-comma  use_index -1 --skip-visible
-hc keybind $Mod-Shift-Control-l use_index +1 --skip-visible
-hc keybind $Mod-Shift-Control-h use_index -1 --skip-visible
 
 # layouting
 hc keybind $Mod-r remove
@@ -147,6 +143,7 @@ hc unrule -F
 hc rule focus=on # normally focus new clients
 #hc rule focus=off # normally do not focus new clients
 # give focus to most common terminals
+hc rule class='mpv' pseudotile=on
 hc rule class~'(.*[Rr]xvt.*|.*[Tt]erm|Konsole)' pseudotile=on
 hc rule windowtype~'_NET_WM_WINDOW_TYPE_(DIALOG|UTILITY|SPLASH)' pseudotile=on
 hc rule windowtype='_NET_WM_WINDOW_TYPE_DIALOG' focus=on
@@ -163,12 +160,4 @@ herbstclient set tree_style '╾│ ├└╼─┐'
 # hc set_monitors 1280x1024+0+0 1280x1024+1280+0
 # or simply:
 hc detect_monitors
-
-# find the panel
-#panel=~/.config/herbstluftwm/panel.sh
-#[ -x "$panel" ] || panel=/etc/xdg/herbstluftwm/panel.sh
-#for monitor in $(herbstclient list_monitors | cut -d: -f1) ; do
-#    # start it on each monitor
-#    "$panel" $monitor &
-#done
 

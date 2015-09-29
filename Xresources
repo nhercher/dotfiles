@@ -1,9 +1,10 @@
 Xcursor.theme: elementary
 Xcursor.size: 22
 ! URxvt*.termName:                      xterm-256color
-URxvt*geometry:                       100x25
+URxvt*geometry:                       110x30
 URxvt*scrollBar:                      false
-URxvt*font:                           xft:profont:size=10
+URxvt*font:                           xft:gohufont:size=8
+URxvt*boldFont:                       xft:gohufont:size=8
 ! URxvt*perl-lib:                       string
 ! URxvt*perl-eval:                      perl-eval
 ! URxvt*perl-ext:                       string
@@ -16,64 +17,22 @@ URxvt*.perl-ext-common: default,matcher,tabbedex
 URxvt*.url-launcher: /usr/bin/firefox
 URxvt*.matcher.button: 1
 
-! October 2015
-!URxvt*.background: #0e0e0e
-!URxvt*.foreground: #ffffff
-! September 2015
 URxvt*.background: #1D2426
 URxvt*.foreground: #8FA388
 
-! Alternate foreground
-!URxvt*.foreground: #AB9C71
-
-! October 2015
-
-URxvt*.cursorColor: #a5c89f
-
-! black
-URxvt*.color0: #20191a
-URxvt*.color8: #6d9a83
-! red
-URxvt*.color1: #4e9aa0
-URxvt*.color9: #c8214c
-! green
-URxvt*.color2: #a09289
-URxvt*.color10: #4e89c8
-! yellow
-URxvt*.color3: #3d7da0
-URxvt*.color11: #ac60c8
-! blue
-URxvt*.color4: #a07b68
-URxvt*.color12: #c89f75
-! magenta
-URxvt*.color5: #a0074c
-URxvt*.color13: #c8536b
-! cyan
-URxvt*.color6: #d8a86d
-URxvt*.color14: #c85854
-! white
-URxvt*.color7: #a5c89f
-URxvt*.color15: #7881c8
-! underline when default
-URxvt*.colorUL: #a5c89f
-
-! September 2015
-
-!URxvt*.cursorColor: #BE5E1E
-
-!URxvt*.color0:  #39474A
-!URxvt*.color1:  #986345
-!URxvt*.color2:  #788249
-!URxvt*.color3:  #9B6A46
-!URxvt*.color4:  #3E5951
-!URxvt*.color5:  #B9924A
-!URxvt*.color6:  #5d796a
-!URxvt*.color7:  #977D5E
-!URxvt*.color8:  #4C5F63
-!URxvt*.color9:  #B07350
-!URxvt*.color10: #869151
-!URxvt*.color11: #AF6B42
-!URxvt*.color12: #567A6E
-!URxvt*.color13: #D69D55
-!URxvt*.color14: #668574
-!URxvt*.color15: #AB9C71
+URxvt*.color0:  #39474A
+URxvt*.color1:  #986345
+URxvt*.color2:  #788249
+URxvt*.color3:  #9B6A46
+URxvt*.color4:  #3E5951
+URxvt*.color5:  #B9924A
+URxvt*.color6:  #5d796a
+URxvt*.color7:  #977D5E
+URxvt*.color8:  #4C5F63
+URxvt*.color9:  #B07350
+URxvt*.color10: #869151
+URxvt*.color11: #AF6B42
+URxvt*.color12: #567A6E
+URxvt*.color13: #D69D55
+URxvt*.color14: #668574
+URxvt*.color15: #AB9C71
