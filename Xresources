@@ -1,6 +1,6 @@
 Xcursor.theme: elementary
 Xcursor.size: 22
-! URxvt*.termName:                      xterm-256color
+!URxvt*.termName:                      rxvt-unicode
 URxvt*geometry:                       110x30
 URxvt*scrollBar:                      false
 URxvt*font:                           xft:gohufont:size=8
