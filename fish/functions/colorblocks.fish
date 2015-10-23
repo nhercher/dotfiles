@@ -1,3 +1,3 @@
 function colorblocks
-	python ~/.MEGAsync/colorblocks/colorblocks.py
+	python ~/Cloud/MEGAsync/Images\ and\ Sounds/colorblocks/colorblocks.py
 end

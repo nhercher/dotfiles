@@ -12,7 +12,7 @@ xsetroot -solid '#1b1b1b'
 
 # autostart some apps
 
-feh --bg-fill ~/.wallpapers/lCJOqD5tilt.png &
+feh --bg-fill ~/.wallpapers/1G59wU.png &
 killall compton &
 (sleep 2s && compton) &
 
